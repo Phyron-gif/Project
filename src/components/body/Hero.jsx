@@ -11,6 +11,7 @@ import ResearchCards from './ResearCards'
 import NetworkCard from './NetworkCard'
 
 function Hero(){
+    
     return(
         <>
         
@@ -25,6 +26,7 @@ function Hero(){
                 
                     />
                     <Button 
+                    
                     text="Join the Palaver" 
                     className="p-4 bg-transparent border border-white border-2 rounded-lg text-white font-bold hover:scale-105 hover:translate-y-1 hover:shadow-2xl transition-all duration-300 w-52 lg:mt-16 lg:mb-3 mb-16"
                 

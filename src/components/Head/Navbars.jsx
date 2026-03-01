@@ -1,7 +1,7 @@
-function Navbars({label,href}){
+function Navbars({label,href ,className}){
     return(
         
-             <a href={href}>{label}</a>
+             <a className={className} href={href}>{label}</a>
         
        
 
